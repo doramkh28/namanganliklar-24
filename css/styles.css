@@ -195,3 +195,123 @@ body {
 .phone-number-link, .phone-number-link img{
   display: block;
 }
+
+/* latest-news-section */
+
+.latest-news {
+  display: flex;
+  align-items: flex-start;
+  margin: 35px 0;
+}
+.left {
+  flex-grow: 1;
+  margin-right: 40px;
+}
+.latest-news-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+} 
+.left-inner {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.left-inner li {
+  display: flex;
+  margin-bottom: 20px;
+}
+.text {
+  width: 510px;
+  margin-left: 20px;
+}
+.text h4 {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+}
+.text p {
+  width: 480px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #434343;
+}
+.text span {
+  font-size: 14px;
+  line-height: 17px;
+  color: #7688A4;
+}
+.text span::before {
+  content: "";
+  display: inline-block;
+  background-image: url(../img/outline-date-range.svg);
+  width: 17px;
+  height: 15px;
+  margin-right: 5px;
+}
+.right-top {
+  margin-top: 20px;
+  background-color: #F6F6F9;
+  border-radius: 5px;
+  padding: 20px;
+}
+.right-top h3 {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #202020;
+  margin-bottom: 15px;
+}
+.right-text {
+  border-bottom: 3px solid #E4E4E4;
+}
+.right-text:last-child {
+  border-bottom: none;
+}
+.right-text p {
+  margin: 0;
+  margin-top: 10px;
+  margin-top: 18px;
+  margin-bottom: 15px;
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+  padding-right: 40px;
+}
+.right-text span {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7688A4;
+  margin-bottom: 15px;
+}
+.right-text .last-span {
+  margin-bottom: 0;
+}
+.right::after {
+  content: "";
+  display: block;
+  background-image: url("../img/ucell.png");
+  width: 386px;
+  height: 477px;
+  margin-top: 30px;
+}
+.btn-dark {
+  display: inline-block;
+  margin-left: 300px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #295093;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+/* /////////////////////////////////// */
