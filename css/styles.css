@@ -1,0 +1,197 @@
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/rubik-v9-latin-regular.woff") format("woff"); 
+}
+@font-face {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+  src: url("../fonts/Rubik-Medium.woff2") format("woff2"), 
+  url("../fonts/Rubik-Medium.woff") format("woff"); 
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/rubik-v9-latin-700.woff2") format("woff2"), 
+  url("../fonts/rubik-v9-latin-700.woff") format("woff"); 
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/roboto-v20-latin-regular.woff2") format("woff2"), 
+  url("../fonts/roboto-v20-latin-regular.woff") format("woff"); 
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/roboto-v20-latin-italic.woff2") format("woff2"), 
+  url("../fonts/roboto-v20-latin-italic.woff") format("woff"); 
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/roboto-v20-latin-500italic.woff2") format("woff2"), 
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:url("../fonts/roboto-v20-latin-500.woff2") format("woff2"),
+  url("../fonts/roboto-v20-latin-500.woff") format("woff"); 
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  color: #434343;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* BODY HEADER SECTION */
+.header-section {
+  border-top: 4px solid #295093;
+  background-color: #F6F6F9;
+  padding: 18px 0;
+}
+.header-section-top {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 30px 0;
+}
+.logo-link {
+  padding: 4px 7px;
+  background-color: #fff;
+  box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+  border-radius: 5px;
+}
+.logo-img {
+  width: 303px;
+  height: 33px;
+}
+/* Exchange-rates */
+.money-exchange {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 19px;
+  color: #7A7A7A;
+  list-style-type: none;
+  padding: 12px 20px;
+  margin: 0;
+}
+.money-exchange-list:not(:last-child) {
+  margin-right: 26px;
+}
+.money-exchange-icon {
+  color: #285193;
+}
+/* Header-section-left */
+.header-section-left {
+  width: 295px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+}
+/* Search-button */
+.search-button {
+  padding: 8px;
+  background: #FFFFFF;
+  border:none;
+  border-radius: 5px;
+}
+/* Language Ru Button */
+.language-ru{
+  padding: 10px 11px;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.language-ru img{
+  border-radius: 50%;
+}
+/* Telegram-join-link */
+.telegram-join-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 11px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+  border-radius: 5px;
+}
+.telegram-join-link img{
+  margin-right: 8px;
+}
+/* Header-navigation-part */
+.nav-bar {
+  width: 1200px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+  border-radius: 5px;
+  margin-top: 14px;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 21px 25px;
+  margin: 0;
+  list-style-type: none;
+}
+.nav-menu-list a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  color: #515151;
+}
+.nav-menu-list a:hover, .active-menu-list a {
+  color: #285193;
+}
+/* Aside-phone-number-section */
+.phone-number{
+  background: #F6F6F9;
+  padding-bottom: 23px;
+}
+.phone-number-link, .phone-number-link img{
+  display: block;
+}
