@@ -195,3 +195,41 @@ body {
 .phone-number-link, .phone-number-link img{
   display: block;
 }
+
+/* Top news section */
+.top-news {
+  margin-bottom: 34px;
+}
+.top-news-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.top-small-new {
+  margin-right: 20px;
+  margin-bottom: 18px;
+}
+.top-small-new:nth-child(3n) {
+  margin-right: 0;
+}
+.small-new-img {
+  display: block;
+  margin-bottom: 11px;
+  border-radius: 5px;
+}
+.small-new-content {
+  width: 320px;
+}
+.small-new-title {
+  display: block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+  margin-bottom: 11px;
+}
+.small-new-date {
+  font-size: 14px;
+  line-height: 17px;
+  color: #6B6D97;
+}
