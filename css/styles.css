@@ -247,6 +247,45 @@ img {
   line-height: 17px;
   color: #6B6D97;
 }
+/* notification-menu */
+.notification-menu{
+  display: flex;
+  align-items: center;
+  padding: 33px 0;
+  background: rgba(239, 186, 84, 0.18);
+  border-radius: 5px;
+}
+.notification-menu span{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 0 240px 0 17px;
+  color: #000000;
+}
+.notification-menu::before{
+  display: inline-block;
+  width: 31px;
+  height: 35px;
+  background-image: url("../img/notification-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto;
+  margin-left: 34px;
+  content: "";
+}
+.notification-menu a{
+  display: inline-block;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 8px 15px;
+  background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+  border-radius: 5px;
+}
+.notification-menu a:hover{
+  background: linear-gradient(90deg, #c4481f 0%, rgba(167, 88, 32, 0.9) 88.43%);
+}
 /* latest-news-section */
 .latest-news {
   display: flex;
@@ -376,24 +415,24 @@ img {
 .mobile-app{
   background-color: #F6F6F9;
   background-image: 
-   url("../img/purple-namanganliklar.png"),
-   url("../img/white-back.jpg"), 
-   url("../img/iphone.png"),
-   url("../img/googleplay.png"), 
-   url("../img/appstore.png");
+  url("../img/purple-namanganliklar.png"),
+  url("../img/white-back.jpg"), 
+  url("../img/iphone.png"),
+  url("../img/googleplay.png"), 
+  url("../img/appstore.png");
   background-repeat: no-repeat;
   background-position: 
-   left 81px top 106px,
-   left 50px top 83px,
-   left 19px top 37px,
-   right 205px center,
-   right 20px center;
+  left 81px top 106px,
+  left 50px top 83px,
+  left 19px top 37px,
+  right 205px center,
+  right 20px center;
   background-size: 
-   85px auto,
-   147px 132px,
-   236px auto,
-   auto,
-   auto;
+  85px auto,
+  147px 132px,
+  236px auto,
+  auto,
+  auto;
 }
 .mobile-app-text{
   width: 530px;
