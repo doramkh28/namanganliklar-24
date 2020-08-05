@@ -367,6 +367,51 @@ img {
   border-radius: 5px;
   padding: 10px 30px;
 }
+/* mobile-application-section */
+.mobile-application{
+  margin: 38px 0;
+}
+.mobile-app{
+  background-color: #F6F6F9;
+  background-image: 
+   url("../img/purple-namanganliklar.png"),
+   url("../img/white-back.jpg"), 
+   url("../img/iphone.png"),
+   url("../img/googleplay.png"), 
+   url("../img/appstore.png");
+  background-repeat: no-repeat;
+  background-position: 
+   left 81px top 106px,
+   left 50px top 83px,
+   left 19px top 37px,
+   right 205px center,
+   right 20px center;
+  background-size: 
+   85px auto,
+   147px 132px,
+   236px auto,
+   auto,
+   auto;
+}
+.mobile-app-text{
+  width: 530px;
+  margin-left: 245px;
+  padding: 65px 0;
+}
+.mobile-app-text h3{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #295093;
+  margin: 0;
+}
+.mobile-app-text p{
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  margin: 0;
+  margin-top: 10px;
+}
 /* site-footer-section */
 .site-footer{
   background: #295093;
