@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header-section">
+    <div class="container">
+      <div class="header-section-top">
+        <a class="logo-link" href="#"> 
+          <img class="logo-img" src="img/logo.svg" alt="Namanganliklar24 logo" width="303" height="33">
+        </a>
+        
+        <ul class="money-exchange">
+          <li class="money-exchange-list">
+            <b class="money-exchange-icon">&dollar;</b>
+            <span class="money-exchange-value">10137.2</span>
+          </li>
+          <li class="money-exchange-list">
+            <b class="money-exchange-icon">P</b>
+            <span class="money-exchange-value">138.26 </span>
+          </li>
+          <li class="money-exchange-list">
+            <b class="money-exchange-icon">&euro;</b>
+            <span class="money-exchange-value">10988.72</span>
+          </li>
+        </ul>
+        
+        <div class="header-section-left">
+          <button class="search-button" type="button">
+            <img src="img/search.svg" alt="search icon" width="24" height="24">
+          </button>
+          <button class="language-ru" type="button">
+            <img src="img/ru.svg" alt="search icon" width="20" height="20">
+            <span>РУ</span>
+          </button>
+          <a class="telegram-join-link" href="https://t.me.to/mayoquz" target="_blank">
+            <img src="img/telegram.svg" alt="logo-telegram" width="20" height="20">
+            <span>Подписатся</span>
+          </a>
+        </div> <!-- site-header-left -->
+      </div> <!-- header-section-top -->
+      
+      <nav class="nav-bar">
+        <ul class="nav-menu">
+          <li class="nav-menu-list">
+            <a href="#">Узбекистана</a>
+          </li>
+          <li class="nav-menu-list">
+            <a href="#">Мир</a>
+          </li>
+          <li class="nav-menu-list">
+            <a href="#">Экономика</a>
+          </li>
+          <li class="nav-menu-list active-menu-list">
+            <a href="#">Политика</a>
+          </li>
+          <li class="nav-menu-list">
+            <a href="#">Общество</a>
+          </li>
+          <li class="nav-menu-list">
+            <a href="#">Технологии</a>
+          </li>
+          <li class="nav-menu-list">
+            <a href="#">Спорт</a>
+          </li>
+          <li class="nav-menu-list">
+            <a href="#">Культура</a>
+          </li>
+          <li class="nav-menu-list">
+            <a href="#">Происшествия</a>
+          </li>
+          <li class="nav-menu-list">
+            <a href="#">Туризм</a>
+          </li>
+        </ul>
+      </nav> <!-- header-lists -->
+    </div> <!-- container -->
+  </header>
+  
+  <aside class="phone-number">
+    <div class="container">
+      <a class="phone-number-link" href="#">
+        <img src="img/phone-number.jpg" alt="phone number image" width="1200" height="99">
+      </a>
+    </div>
+  </aside>
+  
+  <!-- Write to us section -->
+  <section class="write-to-us">
+    <div class="container">
+      <h1 class="write-to-us-heading">Напишите нам</h1>
+
+      <div class="write-to-us-section">
+        <div class="write-to-us-left">
+          <form class="write-to-us-form" action="https://echo.htmlacademy.ru" method="POST">
+            <div class="write-to-us-box">
+              <label class="visually-hidden" for="name-input">Имя</label>
+              <input class="write-to-us-input" id="name-input" type="text" name="name" placeholder="Имя" required>
+            </div>
+            <div class="write-to-us-box">
+              <label class="visually-hidden" for="email-input">Электронная почта</label>
+              <input class="write-to-us-input" id="email-input" type="email" name="email" placeholder="Электронная почта" required>
+            </div>
+            <div class="write-to-us-box">
+              <label class="visually-hidden" for="tel-input">Номер телефона</label>
+              <input class="write-to-us-input" id="tel-input" type="tel" name="telephone" placeholder="Номер телефона" required>
+            </div>
+            <div class="write-to-us-box">
+              <label class="visually-hidden" for="theme-input">Тема</label>
+              <input class="write-to-us-input" id="theme-input" type="text" name="theme" placeholder="Тема" required>
+            </div>
+            <div class="write-to-us-box">
+              <label class="visually-hidden" for="text-area">Текст</label>
+              <textarea class="write-to-us-textarea" id="text-area" name="textarea" placeholder="Текст" rows="15" required></textarea>
+            </div>
+            <div class="write-to-us-box write-to-us-box-small">
+              <label class="write-to-us-file-input">
+                <input class="visually-hidden" type="file">
+                <span class="write-to-us-file-input-span">
+                  Прикрепить файл
+                  <img class="write-to-us-input-span-img" src="img/file-frame.svg" alt="pictureof some file">
+                </span>
+              </label>
+            </div>
+            <div class="write-to-us-box write-to-us-box-small">
+              <label class="visually-hidden" for="code-input">Код</label>
+              <input class="write-to-us-input write-to-us-box-code" id="code-input" type="text" name="code" placeholder="Код" required>
+              <img class="write-to-us-box-code-img" src="img/code.jpg" alt="Code icon" srcset="img/code.jpg 1px, img/code@2x.jpg 2x"></img>
+            </div>
+            <div class="write-to-us-box">
+              <button class="write-to-us-btn" type="submit">
+                Отправить
+              </button>
+            </div>
+          </form>
+        </div> <!-- write-to-us-left -->
+
+        <div class="write-to-us-right">
+          <h2 class="visually-hidden">Контакты</h2>
+          <img class="write-to-us-right-img" src="img/contact-logo.svg" alt="Namanganliklar24 contact logo" width="300" height="21">
+          <div class="contacts-info-of-the-site">
+            <p class="contacts-info-text">Электронная почта</p>
+            <p class="info-text">info@namanganliklar24.uz</p>
+          </div>
+          <div class="contacts-info-of-the-site">
+            <p class="contacts-info-text">Социальные сети</p>
+            <ul class="other-sites-unordered-list">
+              <li class="other-sites-list">
+                <a href="#">
+                  <img src="img/facebook.svg" alt="Facebook icon" class="other-sites-img" width="32" height="32">
+                </a>
+              </li>
+              <li class="other-sites-list">
+                <a href="#">
+                  <img src="img/twitter.svg" alt="Twitter icon" class="other-sites-img" width="32" height="32">
+                </a>
+              </li>
+              <li class="other-sites-list">
+                <a href="#">
+                  <img src="img/odnoklasnik.svg" alt="Odnoklasnik icon" class="other-sites-img" width="32" height="32">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="contacts-info-of-the-site">
+            <p class="contacts-info-text">Телеграм канал</p>
+            <a href="#" class="telegram-link">
+              <img src="img/cib_telegram.svg" alt="Telegram icon">
+              <p>Подписатся</p>
+            </a>
+          </div>
+          <div class="contacts-info-of-the-site">
+            <p class="contacts-info-text">Мобильная приложение</p>
+            <a class="mobile-app-link" href="#">
+              <img src="img/googlePlay.svg" alt="Google Play app link" width="111" height="33">
+              <img src="img/appleStore.svg" alt="Apple Store app" width="109" height="33">
+            </a>
+          </div>
+
+        </div> <!-- write-to-us-right -->
+      </div> <!-- write-to-us-section -->
+    </div> <!-- container -->
+  </section> <!-- write-to-us -->
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <a class="footer-logo" href="#"> 
+          <img src="img/footer-logo.svg" alt="Namanganliklar24 footer logo" width="171" height="13">
+        </a>
+        <div class="footer-telegram">
+          <span>Подписывайтесь на наш канал в Telegram и будьте всегда в курсе самых последних новостей:</span>
+          <a class="footer-telegram-button" href="#" target="_blank">
+            <img src="img/telegram-icon-footer.svg" alt="Footer telegram icon" width="18" height="20">
+            <span>Подписатся</span>
+          </a>
+        </div>
+      </div>
+      <hr class="footer-line">
+      <div class="footer-bottom">
+        <div class="about-site-footer">
+          <h3>О сайте</h3>
+          <p>
+            Воспроизводство, копирование, тиражирование, распростране ние и иное использование информации с сайта «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.
+          </p>
+        </div>
+        <ul class="footer-nav">
+          <li>
+            <a href="#">Информация о сайте</a>
+          </li>
+          <li>
+            <a href="#">Напишите нам</a>
+          </li>
+          <li>
+            <a href="#">Реклама</a>
+          </li>
+          <li>
+            <a href="#">Прислать новость</a>
+          </li>
+        </ul>
+        <ul class="footer-nav">
+          <li>
+            <a href="#">Использование материалов</a>
+          </li>
+          <li>
+            <a href="#">Темы дня</a>
+          </li>
+          <li>
+            <a href="#">Наша команда</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
