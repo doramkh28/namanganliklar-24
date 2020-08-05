@@ -172,7 +172,6 @@ img {
 .telegram-join-link {
   display: flex;
   align-items: center;
-  justify-content: center;
   text-decoration: none;
   padding: 11px;
   font-weight: 500;
@@ -186,9 +185,9 @@ img {
   margin-right: 8px;
 }
 .telegram-join-window-content {
-  display: none;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   position: absolute;
   z-index: 50;
   left: 310px;
@@ -199,10 +198,13 @@ img {
   border-radius: 5px;
   padding: 14px 15px 32px 78px;
 }
+.telegram-join-window-content .x-link {
+  display: flex;
+  align-items: flex-end;
+}
 .telegram-join-window-content .x-img {
-  align-self: flex-end;
   margin-bottom: 16px;
-  cursor: pointer;
+  align-self: flex-end;
 }
 .telegram-join-window-content p {
   font-weight: 500;
@@ -213,6 +215,9 @@ img {
   margin-top: 0;
   margin-bottom: 30px;
   padding-right: 48px;
+}
+.inline-block {
+  display: inline-block;
 }
 /* Header-navigation-part */
 .nav-bar {
