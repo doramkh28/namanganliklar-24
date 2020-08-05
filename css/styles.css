@@ -674,3 +674,148 @@ img {
 .related-news{
   margin: 16px 0 34px 0;
 }
+
+/* ******************** */
+
+/*  Write to us section */
+.write-to-us {
+  font-size: 18px;
+  line-height: 21px;
+  color: #888888;
+  margin-bottom: 40px;
+}
+.write-to-us-heading {
+  margin-bottom: 12px;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #000;
+}
+.write-to-us-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+/* Write to us left part */
+.write-to-us-left {
+  width: 49%;
+}
+.write-to-us-box {
+  margin-bottom: 20px;
+  position: relative;
+}
+.write-to-us-box-small {
+  width: 221px;
+  display: flex;
+  align-items: center;
+}
+.write-to-us-textarea {
+  min-height: 307px;
+  resize: vertical;
+}
+.write-to-us-input,
+.write-to-us-textarea,
+.write-to-us-file-input {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  border-radius: 5px;
+  border: 2px solid rgba(40, 81, 147, 0.3);
+  background-color: rgba(241, 241, 241, 0.3);
+}
+.write-to-us-input:focus,
+.write-to-us-textarea:focus {
+  border-color: #285193;
+  outline: 0;
+}
+.write-to-us-file-input-span {
+  display: flex;
+  align-items: center;
+  color: #888;
+}
+.write-to-us-input-span-img {
+  margin-left: 11px;
+}
+.write-to-us-box-code-img {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateX(120%) translateY(-50%);
+}
+.write-to-us-btn {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background-color: #295093;
+  border-radius: 5px;
+  padding: 15px 61px;
+  border: 2px solid rgba(40, 81, 147, 0.54);
+  letter-spacing: 1px;
+}
+/* Write to us right part */
+.write-to-us-right {
+  display: flex;
+  flex-direction: column;
+  width: 510px;
+  background-color: #fff;
+  border: 2px solid #BCC3CD;
+  border-radius: 5px;
+  padding: 23px 20px;
+  box-shadow: -12px 8px 9px rgba(57, 57, 57, 0.25);
+}
+.write-to-us-right-img {
+  width: 300px;
+  height: 21px;
+  display: block;
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+.contacts-info-of-the-site {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.contacts-info-text,
+.info-text {
+  margin: 0;
+}
+.other-sites-unordered-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+}
+.other-sites-img {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin-left: 13px;
+}
+.telegram-link {
+  display: flex;
+  align-items: center;
+  background: #295091;
+  border-radius: 5px;
+  padding: 6px 10px;
+  text-decoration: none;
+}
+.telegram-link p {
+  margin: 0;
+  margin-left: 7px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+.mobile-app-link {
+  display: flex;
+  align-items: center;
+}
+.mobile-app-link img {
+  display: block;
+  margin-left: 13px;
+}
