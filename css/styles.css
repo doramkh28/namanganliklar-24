@@ -422,6 +422,9 @@ img {
   height: 15px;
   margin-right: 5px;
 }
+.right{
+  width: 386px;
+}
 .right-top {
   margin-top: 20px;
   background-color: #F6F6F9;
@@ -612,4 +615,62 @@ img {
 }
 .footer-bottom:nth-child(3){
   flex-grow: 1;
+}
+/* Article Page */
+.articles-menu{
+  margin: 20px 0;
+}
+.article-main{
+  display: flex;
+  justify-content: space-between;
+}
+.article-left{
+  width: 794px;
+}
+.article-left h2{
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin: 15px 0;
+}
+.article-time{
+  font-size: 14px;
+  line-height: 17px;
+  color: #7688A4;
+}
+.article-left p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+.article-left .article-strong{
+  font-weight: 500;
+}
+.article-time::before {
+  content: "";
+  width: 18px;
+  height: 20px;
+  display: inline-block;
+  background-image: url(../img/outline-date-range.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transform: translateY(20%);
+  margin-right: 1px;
+}
+.shavkat-mir{
+  width: 794px;
+  height: auto;
+  margin: 15px 0;
+}
+.hashtag-text{
+  display: block;
+  font-size: 18px;
+  line-height: 21px;
+  color: #28508E;
+  padding: 25px 0;
+  border-bottom: 2px solid #EBEBEB;
+}
+.related-news{
+  margin: 16px 0 34px 0;
 }
