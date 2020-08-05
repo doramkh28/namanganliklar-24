@@ -74,7 +74,16 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 img {
   display: block;
 }
@@ -246,6 +255,75 @@ img {
   line-height: 17px;
   color: #6B6D97;
 }
+
+/*  Write to us section */
+.write-to-us {
+  margin-bottom: 40px;
+}
+.write-to-us-heading {
+  margin-bottom: 12px;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #000;
+}
+.write-to-us-left {
+  width: 49%;
+}
+.write-to-us-box {
+  margin-bottom: 20px;
+  position: relative;
+}
+.write-to-us-box-small {
+  width: 221px;
+  display: flex;
+  align-items: center;
+}
+.write-to-us-textarea {
+  min-height: 307px;
+  resize: vertical;
+}
+.write-to-us-input,
+.write-to-us-textarea,
+.write-to-us-file-input {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  border-radius: 5px;
+  border: 2px solid rgba(40, 81, 147, 0.3);
+  background-color: rgba(241, 241, 241, 0.3);
+}
+.write-to-us-input:focus,
+.write-to-us-textarea:focus {
+  border-color: #285193;
+  outline: 0;
+}
+.write-to-us-file-input-span {
+  display: flex;
+  align-items: center;
+  color: #888;
+}
+.write-to-us-input-span-img {
+  margin-left: 11px;
+}
+.write-to-us-box-code-img {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateX(120%) translateY(-50%);
+}
+.write-to-us-btn {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background-color: #295093;
+  border-radius: 5px;
+  padding: 15px 61px;
+  border: 2px solid rgba(40, 81, 147, 0.54);
+}
+
 /* latest-news-section */
 
 .latest-news {
