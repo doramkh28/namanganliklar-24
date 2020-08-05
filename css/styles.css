@@ -148,6 +148,7 @@ img {
   background-color: #fff;
   border-radius: 5px;
 }
+
 .language-ru img{
   border-radius: 50%;
   margin-right: 5px;
@@ -157,6 +158,7 @@ img {
   margin-top: 5px;
   font-weight: 500;
 }
+
 /* Telegram-join-link */
 .telegram-join-link {
   display: flex;
