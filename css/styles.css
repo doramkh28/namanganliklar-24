@@ -230,20 +230,42 @@ img {
   border-radius: 5px;
 }
 .corona-info h3{
-  width: 310px;
-  padding: 12px 70px 12px 25px;
+  position: relative;
+  width: 405px;
+  padding: 12px 70px 12px 103px;
   margin: 0;
   border-right: 2px solid #EB5569;;
 }
+.corona-info h3::before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  margin-left: 35px;
+  background-image: url("../img/coronavirus-icon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  content: "";
+}
 .corona-info-text{
-  width: 161px;
+  position: relative;
+  width: 228px;
   border-right: 2px solid #F4CCD1;
   height: 49px;
+  padding-left: 58px;
 }
 .black{
   border: none;
 }
 .red::before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
   display: inline-block;
   width: 38px;
   height: 40px;
@@ -254,6 +276,10 @@ img {
   content: "";
 }
 .green::before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
   display: inline-block;
   width: 38px;
   height: 40px;
@@ -264,6 +290,10 @@ img {
   content: "";
 }
 .black::before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
   display: inline-block;
   width: 38px;
   height: 40px;
