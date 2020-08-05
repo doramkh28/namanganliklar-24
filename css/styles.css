@@ -195,3 +195,87 @@ body {
 .phone-number-link, .phone-number-link img{
   display: block;
 }
+.site-footer{
+  background: #295093;
+}
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.footer-logo{
+  background: #133C82;
+  border-radius: 5px;
+  padding: 10px;
+}
+.footer-telegram{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-telegram span{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #FFFFFF;
+  margin-right: 17px;
+}
+.footer-telegram-button{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  padding: 10px;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+.footer-telegram-button img{
+  margin-right: 7px;
+}
+.footer-telegram-button span{
+  font-size: 14px;
+  line-height: 17px;
+  color: #295093;
+  margin: 0;
+}
+.footer-line{
+  height: 3px;
+  background: #133C82;
+  border: none;
+}
+.footer-bottom{
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+}
+.about-site-footer{
+  width: 365px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  margin-right: 110px;
+}
+.footer-nav{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  margin-right: 115px;
+}
+.footer-nav li{
+  padding: 4px 0;
+}
+.footer-nav a{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: border-bottom 0.3s ease;
+}
+.footer-nav a:hover{
+  border-bottom: 1px solid #fff;
+}
+.footer-bottom:nth-child(3){
+  flex-grow: 1;
+}
